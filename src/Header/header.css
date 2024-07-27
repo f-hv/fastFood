@@ -1,0 +1,14 @@
+img {
+    height: 500px;
+    /* width: 35%; */
+}
+
+.container {
+    height: 550px;
+    max-height: 550px;
+
+    .content{
+        height: fit-content;
+    }
+}
+

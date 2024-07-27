@@ -1,0 +1,64 @@
+.card {
+    &:hover {
+        background-color: #334155;
+
+        p {
+            color: #cbd5e1
+        }
+    }
+
+    .card-body {
+        overflow: hidden;
+
+        h6{
+        white-space: nowrap;
+        }
+    }
+
+}
+
+.des {
+    line-height: 14pt;
+}
+
+
+/* swiper CSS */
+/* .swiper-container {
+    width: 100%;
+    height: 100%;
+  }*/
+  
+.swiper-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+*,*::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+} 
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  height: auto;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
